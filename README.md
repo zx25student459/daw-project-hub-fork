@@ -74,3 +74,5 @@ Para visualizar la página web en tu entorno local:
 - **¿Por qué `git fetch` permite revisar antes de integrar?:** Porque al separar la descarga de la fusión, podemos utilizar comandos como `git diff main..origin/main` o `git log main..origin/main` para inspeccionar con seguridad qué código ha escrito otra persona antes de incorporarlo a nuestro trabajo, evitando posibles conflictos imprevistos.
 - **Relación entre `pull`, `fetch` y la integración posterior:** La fórmula fundamental de Git es:  
   `git pull = git fetch + git merge` (o `git rebase`).
+
+  ## Propuesta de cambios
